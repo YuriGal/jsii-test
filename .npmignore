@@ -13,3 +13,7 @@ build
 # Include .jsii and .jsii.gz
 !.jsii
 !.jsii.gz
+
+
+# Exclude jsii outdir
+dist

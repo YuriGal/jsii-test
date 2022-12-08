@@ -26,6 +26,10 @@
       "python": {
         "distName": "jsii-test.core",
         "module": "jsii_test.core"
+      },
+      "dotnet": {
+        "namespace": "YuriGal.JsiiTest",
+        "packageId": "YuriGal.JsiiTest"
       }
     },
     "tsc": {

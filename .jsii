@@ -32,6 +32,10 @@
   },
   "schema": "jsii/0.10.0",
   "targets": {
+    "dotnet": {
+      "namespace": "YuriGal.JsiiTest",
+      "packageId": "YuriGal.JsiiTest"
+    },
     "js": {
       "npm": "jsii-test"
     },
@@ -123,5 +127,5 @@
     }
   },
   "version": "1.0.0",
-  "fingerprint": "qfAkz5/UuVG11Kb77TFdWkyo7WXx6x7mR6Xx0FjHBIA="
+  "fingerprint": "JWLOxPrlPS4o+YFB+JBek3/l7ng6vjb3r1fOju+swas="
 }
