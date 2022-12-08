@@ -1,0 +1,40 @@
+{
+  "name": "jsii-test",
+  "version": "1.0.0",
+  "description": "A demonstration jsii library",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "jsii",
+    "build:watch": "jsii --watch",
+    "package": "jsii-pacmak"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Yuriy Galanter",
+    "email": "ygalanter@diligent.com"
+  },
+  "repository": {
+    "url": "https://github.com/YuriGal/jsii-test.git"
+  },
+  "license": "ISC",
+  "stability": "experimental",
+  "types": "build/index.d.ts",
+  "jsii": {
+    "outdir": "dist",
+    "versionFormat": "short",
+    "targets": {
+      "python": {
+        "distName": "jsii-test.core",
+        "module": "jsii_test.core"
+      }
+    },
+    "tsc": {
+      "outDir": "build",
+      "rootDir": "src"
+    }
+  },
+  "devDependencies": {
+    "jsii": "^1.72.0",
+    "jsii-pacmak": "^1.72.0"
+  }
+}
